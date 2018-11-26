@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ticket Purchase</title>
+	</head>
+
+	<body>
+		<h1> Purchase your ticket</h1>
+		<h2>Welcome: <br>
+			Choose your Movie: <br>
+		</h2>
+		<hr>
+		<div align="center">
+			<div style="float: left;">
+			<img src = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6262/6262687_sa.jpg;maxHeight=640;maxWidth=550" style="width:200px;height:300px;"> <br>
+			Title: Silip<br>
+			Number of Tickets: <input type="number" name="SilipQuantity" min="1"><br>
+ 			<input type="button" value="add to cart" v-on:click="addSilipToCart"/>
+ 		</div>
+ 		<div style="float: left; width: 650px" align="center">
+ 			<img src = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6262/6262687_sa.jpg;maxHeight=640;maxWidth=550" style="width:200px;height:300px;"> <br>	
+ 			Title: Tuyong Lumpia<br>
+			Number of Tickets: <input type="number" name="TuyongLumpiaQuantity" min="1"><br>
+ 			<input type="button" value="add to cart" v-on:click="addTuyong LumpiaToCart"/>
+ 		</div>
+ 		<div style="float: right;">
+ 			<img src = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6262/6262687_sa.jpg;maxHeight=640;maxWidth=550" style="width:200px;height:300px;"> <br>
+ 			Title: Ginataang Mani<br>
+			Number of Tickets: <input type="number" name="GinataangManiQuantity" min="1"><br>
+ 			<input type="button" value="add to cart" v-on:click="addGinataangManiToCart"/>
+		</div>
+		</div>
+		
+	</body>
+</html>
